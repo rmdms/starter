@@ -1,0 +1,25 @@
+{
+  "name": "kaitho-starter",
+  "version": "1.0.0",
+  "description": "NuxtJS starter framework",
+  "author": "Rémy Dumas",
+  "private": true,
+  "scripts": {
+    "dev": "NODE_ENV=dev nuxt",
+    "prod": "NODE_ENV=prod nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/google-analytics": "^2.4.0",
+    "@nuxtjs/gtm": "^2.4.0",
+    "autosize": "^4.0.2",
+    "axios": "^0.21.0",
+    "core-js": "^3.6.5",
+    "math-fit": "^1.0.1",
+    "nuxt": "^2.14.6",
+    "sass": "^1.29.0",
+    "sass-loader": "^10.1.0",
+    "vue-flickity": "^1.2.1",
+    "vue-images-loaded": "^1.1.2"
+  },
+  "devDependencies": {}
+}
